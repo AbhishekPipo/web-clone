@@ -1,0 +1,51 @@
+.dropdown-menu a.dropdown-item:hover {
+  background-color: transparent;
+}
+@media (max-width: 768px) {
+  .navbar {
+    height: 80px;
+  }
+  .navbar-toggler {
+    position: absolute;
+    right: 50%;
+    transform: translateX(50%);
+  }
+}
+
+@media (max-width: 991px) {
+  .navbar {
+    height: 80px;
+  }
+  .navbar-toggler {
+    position: absolute;
+    right: 50%;
+    transform: translateX(50%);
+  }
+}
+
+.navbar-underline a {
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.navbar-underline a:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: -2px;
+  left: 0;
+  background-color: white;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  transform: scaleX(0);
+}
+
+.navbar-underline a:hover:after {
+  visibility: visible;
+  transform: scaleX(1);
+}
+
+.dropdown-menu a.dropdown-item:hover {
+  background-color:  none;
+}

@@ -1,0 +1,49 @@
+.footer {
+  background-color: #725686;
+  color: aliceblue;
+width: auto;
+}
+
+.footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer li {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.footer hr {
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.footer p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.footer a {
+  color: aliceblue;
+}
+
+.footer a:hover {
+  color: $ternary-color;
+}
+
+.footer i {
+  font-size: 24px;
+  margin-right: 10px;
+  color: aliceblue;
+}
+
+.footer img {
+  max-width: 100%;
+  height: auto;
+}
+.social-button i {
+  color: white;
+}
